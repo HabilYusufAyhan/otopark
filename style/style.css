@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5%;
+    background-color: rgb(170, 0, 0);
+}
+.logo{
+
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: white;
+}
+.triangletop{
+    position: absolute;
+    border-right:100px solid rgb(170, 0, 0);
+    border-top:30px solid transparent;
+    border-bottom:0px solid transparent;
+    right: 0;
+    bottom: 0;
+}
+.trianglebottom{
+    position: absolute;
+    border-right:150px solid rgb(170, 0, 0);
+    border-top:0px solid transparent;
+    border-bottom:30px solid transparent;
+    right: 0;
+    top: 0;
+}
+.logo h2{
+    margin: 0;
+    margin-left: 20px;
+}
+
+.menu-ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(170, 0, 0) , rgb(30, 0, 0));
+    height: 100%;
+}
+.menu-li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: 0.3s;
+}
+.menu-li a:hover{
+    color: rgb(180, 180, 180);
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    height: 6%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.footer-text a{
+   text-decoration: none;
+   color: rgb(170, 0, 0);
+   transition: 0.3s;
+}
+.footer-text a:hover{
+    color: rgb(240, 0, 0);
+}
