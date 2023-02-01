@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 body {
   overflow: hidden;
   box-sizing: border-box;
   height: 100%;
   position: absolute;
   width: 100%;
- 
+  background-color: rgb(74, 0, 0);
+  color: white;
 }
 .home {
   width: 100%;
@@ -14,22 +15,33 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
+.home-div-img {
+  display: flex;
+  align-items: center;
+}
+.home-img-div {
+  width: 250px;
+  display: flex;
+  opacity: 0.7;
+  flex-direction: column;
+  align-items: center;
+}
 .home-img {
   border-radius: 50%;
   object-fit: cover;
   width: 400px;
   height: 400px;
   background: linear-gradient(white, white) padding-box,
-    linear-gradient(to right, rgb(170, 0, 0), rgb(30, 0, 0)) border-box;
+    linear-gradient(to right, rgb(170, 0, 0), rgb(74, 0, 0)) border-box;
 
-  border-left: 15px solid transparent;
-  border-bottom: 15px solid transparent;
+
+  transition: 0.8s;
 }
 .home-text {
   display: flex;
   flex-direction: column;
   width: 35%;
 }
-.home-p{
-    font-family: 'Ubuntu', sans-serif;
+.home-p {
+  font-family: "Ubuntu", sans-serif;
 }

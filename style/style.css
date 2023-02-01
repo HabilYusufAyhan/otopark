@@ -48,7 +48,7 @@ body{
     align-items: center;
     width: 40%;
     padding: 0;
-    background-image: linear-gradient(to right, rgb(170, 0, 0) , rgb(30, 0, 0));
+    background-image: linear-gradient(to right, rgb(170, 0, 0) , rgb(74, 0, 0));
     height: 100%;
 }
 .menu-li a{
