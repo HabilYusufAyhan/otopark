@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant:400,400i,700,700i');
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 100%/1.5 'Cormorant Infant', serif, sans-serif;
+    background-color: hsl(0,0%,75%);
+}
+header, footer{
+    text-align: center;
+    background-color: hsl(0,0%,50%);
+    padding: 1em;
+    color: lavender;
+}
+main{
+    display: block;
+    width: 80%;
+    margin: 1em auto;
+    -moz-columns: 300px;
+    columns: 300px;
+    -moz-column-gap: 2em;
+    column-gap: 2em;
+    break-inside: avoid;
+}
+figure{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: .5em;
+    position: relative;
+}
+figure img{
+    width: 100%;
+    display: block;
+    filter: grayscale(75%);
+    transition: .5s filter;
+    cursor: zoom-in;
+}
+img:hover{
+    filter: none;
+}
